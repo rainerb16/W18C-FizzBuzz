@@ -8,6 +8,8 @@ def fizzBuzz(number):
       print("Buzz")
     elif(number % 3 == 0):
       print("Fizz")
+    else:
+      print(number)
 
 for number in numbers:
   fizzBuzz(number)
